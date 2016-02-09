@@ -3,6 +3,7 @@
 body {
   background-color: #F3EFE2;
   padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body > section {
@@ -11,18 +12,31 @@ body > section {
 
 /* HEADER */
 
-nav#site-header {
+#site-header {
   background-color: green;
   background-image: url('../images/header-background.png');
   height: 100px;
   background-size: cover;
 }
 
+#site-header img#brand-logo {
+  height: 65px;
+}
+
 /* VALUE PROPOSITION */
 
-section#value-proposition {
+#value-proposition {
   background-image: url('../images/header-background.png');
   background-position: 0 -100px;
   background-size: cover;
+}
+
+#value-proposition h1 {
+  color: #F3EFE2;
+  text-align: center;
+  margin: 100px auto 40px auto;
+  font-size: 62px;
+  max-width: 800px;
+  font-weight: 700;
 }
 
