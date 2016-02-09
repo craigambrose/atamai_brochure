@@ -1,0 +1,28 @@
+/* BASE STYLES */
+
+body {
+  background-color: #F3EFE2;
+  padding-top: 100px;
+}
+
+body > section {
+  min-height: 300px;
+}
+
+/* HEADER */
+
+nav#site-header {
+  background-color: green;
+  background-image: url('../images/header-background.png');
+  height: 100px;
+  background-size: cover;
+}
+
+/* VALUE PROPOSITION */
+
+section#value-proposition {
+  background-image: url('../images/header-background.png');
+  background-position: 0 -100px;
+  background-size: cover;
+}
+
