@@ -2,7 +2,6 @@
 
 body {
   background-color: #F3EFE2;
-  padding-top: 100px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,29 +11,49 @@ body > section {
 
 /* HEADER */
 
+.navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 #site-header {
   background-color: green;
   background-image: url('../images/header-background.png');
-  height: 100px;
+  height: 120px;
   background-size: cover;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
 }
 
 #site-header img#brand-logo {
-  height: 65px;
+  height: 110px;
+}
+
+body.scrolled #site-header {
+  height: 70px;
+}
+
+body.scrolled #site-header img#brand-logo {
+  height: 60px;
 }
 
 /* VALUE PROPOSITION */
 
 #value-proposition {
+  background-color: transparent;
   background-image: url('../images/header-background.png');
-  background-position: 0 -100px;
   background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 40px;
 }
 
 #value-proposition h1 {
   color: #F3EFE2;
   text-align: center;
-  margin: 100px auto 40px auto;
+  margin: 150px auto 40px auto;
   font-size: 62px;
   max-width: 800px;
   font-weight: 700;
