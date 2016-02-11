@@ -7,6 +7,7 @@ body {
 
 body > section {
   min-height: 300px;
+  padding: 30px;
 }
 
 /* HEADER */
@@ -58,4 +59,3 @@ body.scrolled #site-header img#brand-logo {
   max-width: 800px;
   font-weight: 700;
 }
-
