@@ -6,12 +6,15 @@ body {
 }
 
 body > section {
-  min-height: 300px;
   padding: 30px;
 }
 
 blockquote {
   border-left-color: #AAA;
+}
+
+.slick-slider {
+  margin-bottom: 0px;
 }
 
 /* HEADER */
@@ -62,4 +65,31 @@ body.scrolled #site-header img#brand-logo {
   font-size: 62px;
   max-width: 800px;
   font-weight: 700;
+}
+
+/* ABOUTG US */
+
+#about-us {
+  background-color: #AEBF53;
+  padding: 0;
+}
+
+#about-us .section-heading {
+  color: white;
+  font-size: 42px;
+  margin-top: 0px;
+}
+
+#about-us .text-column {
+  padding: 30px;
+}
+
+#about-us .photo-column {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#about-us img.section-column-image {
+  width: 100%;
 }
