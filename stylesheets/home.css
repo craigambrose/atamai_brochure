@@ -10,6 +10,10 @@ body > section {
   padding: 30px;
 }
 
+blockquote {
+  border-left-color: #AAA;
+}
+
 /* HEADER */
 
 .navbar-brand {
