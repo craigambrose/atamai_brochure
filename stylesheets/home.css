@@ -111,6 +111,10 @@ body.scrolled #site-header img#brand-logo {
   background-color: #aac03d;
 }
 
+.footer-colour-section {
+  background-color: #C8C8A1;
+}
+
 .dark-section h1 {
   color: #f3efe2;
 }
@@ -118,6 +122,11 @@ body.scrolled #site-header img#brand-logo {
 .dark-section a {
   color: #f3efe2;
 }
+
+.pale-section a {
+  color: #aac03d;
+}
+
 
 /* VALUE PROPOSITION */
 
@@ -209,4 +218,22 @@ body.scrolled #site-header img#brand-logo {
   line-height: 140%;
   max-width: 800px;
   color: black;
+}
+
+/* HOUSE AND LAND */
+
+#house-and-land {
+  min-height: 400px;
+}
+
+.img-beside-heading {
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+/* contact */
+
+#contact {
+  text-align: center;
+  min-height: 500px;
 }
