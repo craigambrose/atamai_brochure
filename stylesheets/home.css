@@ -193,5 +193,20 @@ body.scrolled #site-header img#brand-logo {
 }
 
 .plugging-harcourts {
-  margin-top: 30px
+  margin-top: 30px;
+}
+
+/* IN A GREAT LOCATION */
+
+#location {
+  background-image: url('../images/motueka_river.jpg');
+  height: 400px;
+  background-size: cover;
+}
+
+#location p {
+  font-size: 20px;
+  line-height: 140%;
+  max-width: 800px;
+  color: black;
 }
