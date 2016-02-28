@@ -127,6 +127,10 @@ body.scrolled #site-header img#brand-logo {
   color: #aac03d;
 }
 
+.footer-colour-section a {
+  color: #666;
+}
+
 
 /* VALUE PROPOSITION */
 
@@ -237,3 +241,36 @@ body.scrolled #site-header img#brand-logo {
   text-align: center;
   min-height: 500px;
 }
+
+#contact .contact-details {
+  margin: 0 auto;
+  width: 320px;
+  margin-top: 20px;
+}
+
+#contact .field {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 32px;
+  height: 32px;
+  display: block;
+  text-align: left;
+  white-space: nowrap;
+  color: #333;
+}
+
+#contact .field .text {
+  margin-left: 50px;
+}
+
+#contact .field i {
+  float: left;
+  font-size: 32px;
+  position: relative;
+  color: #444;
+}
+
+#contact .field a {
+  color: #333;
+}
+
