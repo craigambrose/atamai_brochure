@@ -26,8 +26,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/brand-logo.png" id="brand-logo"/></a>
+      <a class="navbar-brand scrollto" href="/" data-attr-scroll="value-proposition"><img src="images/brand-logo.png" id="brand-logo"/></a>
     </div>
+
+    <div class="collapse navbar-collapse" id="atamai-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="scrollto" href="#properties-for-sale" data-attr-scroll="properties-for-sale">Sections for Sale</a></li>
+        <li><a class="scrollto" href="#house-and-land" data-attr-scroll="house-and-land">Homes</a></li>
+        <li><a class="scrollto" href="#contact" data-attr-scroll="contact">Contact Us</a></li>
+      </ul>
   </div>
 </nav>
 
@@ -54,6 +61,7 @@
 </section>
 
 <section id="properties-for-sale" class="dark-section">
+  <a name="properties-for-sale"></a>
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -241,6 +249,7 @@
   </div>
 </section>
 <section id="house-and-land" class="pale-section">
+  <a name="house-and-land"></a>
   <div class="container">
     <div class="row">
       <div class="col-sm-5">
@@ -260,8 +269,8 @@
   </div>
 </section>
 <section id="contact" class="footer-colour-section">
+  <a name="contact"></a>
   <div class="container">
-    <a name="contact"></a>
     <h1>Get in Touch</h1>
     <div class="contact-details">
       <div class="field email-address">
@@ -304,7 +313,7 @@
       $(this).blur();
       var anchor = $(this).attr('data-attr-scroll');
 
-      var anchorOffset = $('#'+anchor).attr('data-scroll-offset');
+      var anchorOffset = 60;
       if (!anchorOffset)
         anchorOffset = defaultAnchorOffset;
 

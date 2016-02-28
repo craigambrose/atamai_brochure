@@ -101,6 +101,23 @@ body.scrolled #site-header img#brand-logo {
   height: 60px;
 }
 
+.navbar-default .navbar-nav {
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {
+  height: 110px;
+  line-height: 95px;
+  color: #F3EFE2;
+  font-size: 24px;
+}
+
+body.scrolled .navbar-default .navbar-nav > li > a {
+  height: 70px;
+  line-height: 40px;
+  font-size: 18px;
+}
+
 /* SECTIONS SHARED */
 
 .pale-section h1 {
