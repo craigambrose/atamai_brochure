@@ -119,15 +119,15 @@ body.scrolled #site-header img#brand-logo {
   color: #f3efe2;
 }
 
-.dark-section a {
+.dark-section a, .dark-section a:visited, .dark-section a:link, .dark-section a:focus {
   color: #f3efe2;
 }
 
-.pale-section a {
+.pale-section a, .pale-section a:visited, .pale-section a:link, .pale-section a:focus {
   color: #aac03d;
 }
 
-.footer-colour-section a {
+.footer-colour-section a, .footer-colour-section a:visited, .footer-colour-section a:link {
   color: #666;
 }
 

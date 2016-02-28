@@ -35,7 +35,7 @@
   <div class="container">
     <h1>an affordable lifestyle with so much more&hellip;</h1>
     <div class="call-to-action">
-      <a class="btn btn-primary btn-large" href="#">Contact us</a>
+      <a class="btn btn-primary btn-large scrollto" data-attr-scroll="contact" href="#contact">Contact us</a>
     </div>
   </div>
 </section>
@@ -139,7 +139,7 @@
           <p>
             View sections now available, or book a site visit,
             by
-            <a href="#">contacting the team from Harcourts</a>.</p>
+            <a href="http://motueka.harcourts.co.nz/">contacting the team from Harcourts</a>.</p>
         </div>
       </div>
       <div class="col-sm-6 photo-column">
@@ -230,12 +230,6 @@
       <!--</div>-->
 
     </div>
-
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#testimonial-set').slick({arrows: false, autoplay: true, autoplaySpeed: 7000});
-      });
-    </script>
   </div>
 </section>
 <section id="location">
@@ -267,6 +261,7 @@
 </section>
 <section id="contact" class="footer-colour-section">
   <div class="container">
+    <a name="contact"></a>
     <h1>Get in Touch</h1>
     <div class="contact-details">
       <div class="field email-address">
@@ -296,5 +291,29 @@
 </section>
 
 <script type="text/javascript" src="vendor/lightbox/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('#testimonial-set').slick({arrows: false, autoplay: true, autoplaySpeed: 7000});
+
+    $(".scrollto").click(function(event) {
+      event.preventDefault();
+
+      var defaultAnchorOffset = 0;
+
+      $(this).blur();
+      var anchor = $(this).attr('data-attr-scroll');
+
+      var anchorOffset = $('#'+anchor).attr('data-scroll-offset');
+      if (!anchorOffset)
+        anchorOffset = defaultAnchorOffset;
+
+      $('html,body').animate({
+        scrollTop: $('#'+anchor).offset().top - anchorOffset
+      }, 500);
+    });
+  });
+</script>
+
 </body>
 </html>
