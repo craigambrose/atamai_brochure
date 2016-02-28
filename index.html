@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css">
+  <link href="vendor/lightbox/css/lightbox.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheets/home.css">
 
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -54,46 +55,44 @@
 
 <section id="properties-for-sale" class="dark-section">
   <div class="container">
-    <a class="scheme-plan-link pull-right" href="downloads/scheme_plan_v19-0.pdf">
-      <img src="images/scheme-plan-thumb-19.png" class="scheme-plan"/>
-    </a>
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Selling now</h1>
+        <h2 class="subheading">Sections available from $175k</h2>
+        <p>
+          Atamai Village features outstanding sunny north facing sections with a feeling of privacy.
+        </p>
+        <ul>
+          <li>
+            <div>
+              Sizes range from 1100 to 5000+ m2, each with a different view of the village and surrounding landscape.
+            </div>
+          </li>
+          <li>
+            <div>
+              Engineered building platforms on select sections
+            </div>
+          </li>
+          <li>
+            <div>
+              Two 24,000 litre water tanks and driveway access provided.
+            </div>
+          </li>
+          <li>
+            <div>
+              Energy options can include off-grid, grid-tied and grid alone.
+            </div>
+          </li>
+          <li>
+            <div>
+              Right of ways, cycle and footpaths throughout the village are located close to all the sections and connect to
+              common areas. Take peaceful walks through the orchard or sit by the pond and enjoy the serenity.
+            </div>
+          </li>
+        </ul>
 
-    <h1>Selling now</h1>
-    <h2 class="subheading">Sections available from $175k</h2>
-    <p>
-      Atamai Village features outstanding sunny north facing sections with a feeling of privacy.
-    </p>
-    <ul>
-      <li>
-        <div>
-          Sizes range from 1100 to 5000+ m2, each with a different view of the village and surrounding landscape.
-        </div>
-      </li>
-      <li>
-        <div>
-          Engineered building platforms on select sections
-        </div>
-      </li>
-      <li>
-        <div>
-          Two 24,000 litre water tanks and driveway access provided.
-        </div>
-      </li>
-      <li>
-        <div>
-          Energy options can include off-grid, grid-tied and grid alone.
-        </div>
-      </li>
-      <li>
-        <div>
-          Right of ways, cycle and footpaths throughout the village are located close to all the sections and connect to
-          common areas. Take peaceful walks through the orchard or sit by the pond and enjoy the serenity.
-        </div>
-      </li>
-    </ul>
-
-    <div class="plugging-harcourts">
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="44px" preserveAspectRatio="xMinYMin" viewBox="0 0 992.126 216.176" enable-background="new 0 0 992.126 216.176" xml:space="preserve">
+        <div class="plugging-harcourts">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="44px" preserveAspectRatio="xMinYMin" viewBox="0 0 992.126 216.176" enable-background="new 0 0 992.126 216.176" xml:space="preserve">
         <g>
         <polygon fill="#00AEEF" class="logo-underline" points="0,185.295 0,216.176 130.314,216.176 130.314,185.295 0,185.295 	" />
         <g>
@@ -137,11 +136,30 @@
         </g>
       </g>
       </svg>
-      <p>
-        View sections now available, or book a site visit,
-        by
-        <a href="#">contacting the team from Harcourts</a>.</p>
+          <p>
+            View sections now available, or book a site visit,
+            by
+            <a href="#">contacting the team from Harcourts</a>.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 photo-column">
+        <div>
+          <a href="images/row_c.jpg" data-lightbox="row-c" data-title="New north facing house sites overlooking the river valley">
+            <img src="images/row_c.jpg" class="scheme-plan img-responsive" />
+          </a>
+        </div>
+        <div class="scheme-plan-section">
+          <a class="scheme-plan-link" href="downloads/scheme_plan_v19-0.pdf">
+            <img src="images/scheme-plan-thumb-19.png" class="scheme-plan" width="100" />
+            <div class="text">
+              <h4>Download village map</h4>
+              Prices are indicative only.
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
+
   </div>
 </section>
 <section id="testimonials">
@@ -277,5 +295,6 @@
   </div>
 </section>
 
+<script type="text/javascript" src="vendor/lightbox/js/lightbox.min.js"></script>
 </body>
 </html>

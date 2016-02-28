@@ -202,11 +202,41 @@ body.scrolled #site-header img#brand-logo {
 /* PROPERTIES FOR SALE */
 
 #properties-for-sale .scheme-plan-link {
-  margin-left: 30px;
+  display: block;
+  overflow: hidden;
+  color: #505b39;
+}
+
+#properties-for-sale .scheme-plan-link:hover {
+  border: 1px solid #505b39;
+  padding: 3px;
+  margin: -4px;
+  text-decoration: none;
 }
 
 .plugging-harcourts {
   margin-top: 30px;
+}
+
+#properties-for-sale .photo-column {
+  margin-top: 37px;
+}
+
+#properties-for-sale .scheme-plan-section {
+  margin-top: 20px;
+}
+
+#properties-for-sale .scheme-plan-link img {
+  margin-right: 10px;
+  float: left;
+}
+
+#properties-for-sale .scheme-plan-section .text {
+  color: #505b39;
+}
+
+#properties-for-sale .scheme-plan-section .text h4 {
+  margin: 0;
 }
 
 /* IN A GREAT LOCATION */
