@@ -148,6 +148,24 @@ body.scrolled .navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
 }
 
+.two-columns {
+  display: flex;
+  flex-direction: 'row';
+  justify-content: 'space-around';
+}
+
+.two-columns img.house {
+  margin-right: 30px;
+}
+
+.two-columns .column1 {
+  margin-right: 20px;
+  border: 1px solid red;
+}
+
+.two-columns .column2 {
+  border: 1px solid red;
+}
 
 /* temporary-section */
 
